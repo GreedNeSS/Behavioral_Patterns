@@ -11,12 +11,17 @@ namespace _1_Strategy.Models
     {
         public int Passengers { get; set; }
         public string Model { get; set; }
-        public IEngine Engine{ get; set; }
+        public IEngine Engine{ get; private set; }
 
         public Car(int passengers, string model, IEngine engine)
         {
             Passengers = passengers;
             Model = model;
+            Engine = engine;
+        }
+
+        public void SwapEngine(IEngine engine)
+        {
             Engine = engine;
         }
 
