@@ -16,12 +16,12 @@ namespace _4_TemplateMethod.Implementations
 
         public override void GetDocument()
         {
-            Console.WriteLine("Посещаем уроки, делаем домашние задания");
+            Console.WriteLine("Получаем аттестат о среднем образовании");
         }
 
         public override void Study()
         {
-            Console.WriteLine("Получаем аттестат о среднем образовании");
+            Console.WriteLine("Посещаем уроки, делаем домашние задания");
         }
     }
 }
