@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using _5_Iterator.Clients;
+using _5_Iterator.Implementations;
+
+Library library = new Library();
+Reader reader = new Reader();
+reader.SeeBooks(library);
+
+Console.ReadLine();
