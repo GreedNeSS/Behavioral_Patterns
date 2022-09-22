@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-Observer", "2-Observer\2-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-Comand", "3-Comand\3-Comand.csproj", "{17BAC41B-5423-4C26-AE8A-FE4E2AF55A62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-TemplateMethod", "4-TemplateMethod\4-TemplateMethod.csproj", "{4568613C-1347-4B99-98DB-49B94A416EAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-TemplateMethod", "4-TemplateMethod\4-TemplateMethod.csproj", "{4568613C-1347-4B99-98DB-49B94A416EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-Iterator", "5-Iterator\5-Iterator.csproj", "{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4568613C-1347-4B99-98DB-49B94A416EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4568613C-1347-4B99-98DB-49B94A416EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4568613C-1347-4B99-98DB-49B94A416EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
