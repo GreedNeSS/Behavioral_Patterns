@@ -18,7 +18,7 @@ namespace _5_Iterator.Implementations
             this.aggregate = aggregate;
         }
 
-        public bool HAsNext()
+        public bool HasNext()
         {
             return aggregate.Count > index;
         }

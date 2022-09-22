@@ -9,7 +9,7 @@ namespace _5_Iterator.Interfaces
 {
     public interface IBookIterator
     {
-        bool HAsNext();
+        bool HasNext();
         Book Next();
     }
 }
