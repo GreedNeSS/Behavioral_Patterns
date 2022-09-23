@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-Comand", "3-Comand\3-Coma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-TemplateMethod", "4-TemplateMethod\4-TemplateMethod.csproj", "{4568613C-1347-4B99-98DB-49B94A416EAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-Iterator", "5-Iterator\5-Iterator.csproj", "{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-Iterator", "5-Iterator\5-Iterator.csproj", "{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-State", "6-State\6-State.csproj", "{E82FC1FB-C65B-48AF-BC7D-95586D6049E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B1443F-5E06-4075-AEE8-ACB0F23B9E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82FC1FB-C65B-48AF-BC7D-95586D6049E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82FC1FB-C65B-48AF-BC7D-95586D6049E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82FC1FB-C65B-48AF-BC7D-95586D6049E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82FC1FB-C65B-48AF-BC7D-95586D6049E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
