@@ -16,7 +16,7 @@ namespace _7_ChainOfResponsibility.Implementations
         {
             if (receiver.PayPalTransfer)
             {
-                Console.WriteLine("Выполняем перевод через PayPal");
+                Console.WriteLine($"Выполняем перевод через PayPal. Сумма перевода: {receiver.TransferAmount}");
             }
             else if (Successor != null)
             {

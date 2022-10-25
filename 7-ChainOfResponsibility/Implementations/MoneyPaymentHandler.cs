@@ -16,7 +16,7 @@ namespace _7_ChainOfResponsibility.Implementations
         {
             if (receiver.MoneyTransfer)
             {
-                Console.WriteLine("Выполняем перевод через системы денежных переводов");
+                Console.WriteLine($"Выполняем перевод через системы денежных переводов. Сумма перевода: {receiver.TransferAmount}");
             }
             else if (Successor != null)
             {

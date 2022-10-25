@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using _7_ChainOfResponsibility.Models;
+
+Receiver receiver = new Receiver(false)
