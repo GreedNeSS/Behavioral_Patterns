@@ -9,7 +9,7 @@ namespace _7_ChainOfResponsibility.Interfaces
 {
     public interface PaymentHandler
     {
-        PaymentHandler Successor { get; set; }
+        PaymentHandler? Successor { get; set; }
         void Handle(Receiver receiver);
     }
 }
