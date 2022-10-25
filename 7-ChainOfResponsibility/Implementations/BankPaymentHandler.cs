@@ -10,11 +10,18 @@ namespace _7_ChainOfResponsibility.Implementations
 {
     public class BankPaymentHandler : PaymentHandler
     {
-        public PaymentHandler Successor { get; set; }
+        public PaymentHandler? Successor { get; set; }
 
         public void Handle(Receiver receiver)
         {
-            throw new NotImplementedException();
+            if (receiver.BankTransfer)
+            {
+                Console.WriteLine("Выполняем перевод через банк");
+            }
+            else if (Successor != null)
+            {
+                Successor.Handle(receiver);
+            }
         }
     }
 }
